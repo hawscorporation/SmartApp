@@ -31,6 +31,15 @@ For Windows users [git-bash](https://git-scm.com/downloads) is perfect **termina
 4. Point your browser to [http://localhost:4200](http://localhost:4200)
 
 #### tip 
+
+##### Possible Error:
+
+###### Missing jquery.color.js
+
+Copy the code from [jquery](https://github.com/jquery/jquery-color/blob/master/jquery.color.js) into \node_modules\jquery-color\  as jquery.color.js
+
+
+
 quick way to speed up builds when testing 
 * exclude whole template parts from compilation by commenting them in `src/app/app.routing.ts` 
 
